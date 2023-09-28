@@ -94,7 +94,7 @@ const SignUp = ({ navigation }) => {
         }}
       >
         <Image
-          source={images.wallieLogo}
+          source={images.purpleLogo}
           resizeMode="contain"
           style={{
             width: "60%",
@@ -121,7 +121,7 @@ const SignUp = ({ navigation }) => {
         >
           <Text
             style={{
-              color: COLORS.lightGreen,
+              color: COLORS.lightPurple,
               ...FONTS.body3,
             }}
           >
@@ -150,7 +150,7 @@ const SignUp = ({ navigation }) => {
         >
           <Text
             style={{
-              color: COLORS.lightGreen,
+              color: COLORS.lightPurple,
               ...FONTS.body3,
             }}
           >
@@ -190,7 +190,7 @@ const SignUp = ({ navigation }) => {
               <View style={{ justifyContent: "center", marginLeft: 5 }}>
                 <Image
                 //   source={{ uri: selectedArea?.flag }}
-                 source={images.usFlag}
+                 source={images.ngFlag}
                   resizeMode="contain"
                   style={{
                     width: 30,
@@ -202,7 +202,7 @@ const SignUp = ({ navigation }) => {
               <View style={{ justifyContent: "center", marginLeft: 5 }}>
                 <Text style={{ color: COLORS.white, ...FONTS.body3 }}>
                   {/* {selectedArea?.callingCodes} */}
-                  US + 1
+                  +234
                 </Text>
                
               </View>
@@ -228,7 +228,7 @@ const SignUp = ({ navigation }) => {
 
         {/* Password */}
         <View style={{ marginTop: SIZES.padding * 2 }}>
-            <Text style={{ color: COLORS.lightGreen, ...FONTS.body3}} >Password</Text>
+            <Text style={{ color: COLORS.lightPurple, ...FONTS.body3}} >Password</Text>
             <TextInput
                 style={{ 
                     marginVertical: SIZES.padding,
@@ -325,7 +325,7 @@ const SignUp = ({ navigation }) => {
                     style={{
                         height: 400,
                         width: SIZES.width * 0.8,
-                        backgroundColor: COLORS.lightGreen,
+                        backgroundColor: COLORS.lightPurple,
                         borderRadius: SIZES.radius
                     }}
                     > 
@@ -354,7 +354,7 @@ const SignUp = ({ navigation }) => {
       style={{ flex: 1 }}
     >
       <LinearGradient
-        colors={[COLORS.lime, COLORS.emerald]}
+        colors={[COLORS.darkBlack, COLORS.magneta]}
         style={{ flex: 1 }}
       >
         <ScrollView>

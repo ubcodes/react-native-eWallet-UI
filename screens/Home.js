@@ -33,7 +33,7 @@ const Home = () => {
             id: 3,
             icon: icons.internet,
             color: COLORS.primary,
-            backgroundColor: COLORS.lightGreen,
+            backgroundColor: COLORS.lightpurple,
             description: "Internet"
         },
         {
@@ -53,8 +53,8 @@ const Home = () => {
         {
             id: 6,
             icon: icons.game,
-            color: COLORS.primary,
-            backgroundColor: COLORS.lightGreen,
+            color: COLORS.secondary,
+            backgroundColor: COLORS.lightpurple,
             description: "Games"
         },
         {
@@ -105,7 +105,7 @@ const Home = () => {
     const [specialPromos, setSpecialPromos] = useState(specialPromoData)
 
 
-    //Function To render the Header Component
+    //Function To render the Header Component - Hi there
     function renderHeader() {
       return(
         <View style={{
@@ -159,16 +159,16 @@ const Home = () => {
     //Function To render the Banner Component
     function renderBanner() {
       return (
-        <View style={{height: 120, borderRadius: 120,
+        <View style={{height: 120, borderRadius: 120, marginBottom: SIZES.padding * 2
 
         }}>
           <Image 
             source={images.banner}
             resizeMode="cover"
             style={{
-              height: '100%',
+              height: '120%',
               width: '100%',
-              borderRadius: 20
+              borderRadius: 0,
             }}
           />
         </View>

@@ -43,7 +43,7 @@ const Scan = ({ navigation }) => {
           style={{
             height: 45, 
             width: 45,
-            backgroundColor: COLORS.green,
+            backgroundColor: COLORS.purple,
             borderRadius: 10,
             alignItems: 'center',
             justifyContent: 'center',
@@ -151,7 +151,7 @@ const Scan = ({ navigation }) => {
                 style={{
                   width: 40,
                   height: 40,
-                  backgroundColor: COLORS.lightGreen,
+                  backgroundColor: COLORS.lightPurple,
                   alignItems: 'center',
                   justifyContent: 'center',
                   borderRadius: 10
